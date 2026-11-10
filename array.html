@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Simple Website - Home</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <div class="logo-placeholder">LOGO</div>
+
+          <div class="logo-name">Simple Website</div>
+        </div>
+
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="lists.html">Lists</a>
+          <a href="articles.html">Articles</a>
+        </nav>
+
+        <div class="language-switcher">
+          <span id="en-button" class="active">EN</span>
+          <span id="ua-button">UA</span>
+        </div>
+
+        <div class="header-buttons">
+          <button>Registration</button>
+          <button>Login</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+      <div class="array-container">
+        <h2>Names Array</h2>
+        <ul id="namesList"></ul>
+        <button id="addNameButton">Add Name</button>
+      </div>
+      <div class="array-container">
+        <h2>Products Array</h2>
+        <div id="productsList"></div>
+        <button id="addProductButton">Add Product</button>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-container">
+        <p>123 Example Street, Kyiv, Ukraine</p>
+
+        <p>Phone: +380 44 123 45 67</p>
+      </div>
+    </footer>
+    <script src="./scripts/list.js"></script>
+  </body>
+</html>
