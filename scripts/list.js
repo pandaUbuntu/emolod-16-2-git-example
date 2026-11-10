@@ -105,6 +105,10 @@ addProductButton.onclick = () => {
             priceDiv.innerHTML = `<span>$${product.price}</span>`;
         }
 
+        if(product.quantity === 0) {
+            priceDiv.innerHTML += `<span class="out-of-stock">Out of stock</span>`;
+        }
+        
         container.appendChild(nameDiv);
         container.appendChild(priceDiv);
 
